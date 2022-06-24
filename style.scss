@@ -1,0 +1,35 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.header {
+    display: flex;
+    max-height: 10vh;
+    font-size: 2.4em;
+    text-align: center;
+
+    .logo{
+        margin-left: auto;
+        max-height: 100px;
+    }
+
+    .span{
+        font-size: 1.5em;
+    }
+}
+
+.content {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: 2px solid blue;
+    height: 80vh;
+    max-width: 100%;
+    background-color: pink;
+    background-image: url(https://d1ds1nqrpp2srf.cloudfront.net/photos/61102/image_original.jpg?1515697117);
+    object-fit: scale-down;
+
+}
