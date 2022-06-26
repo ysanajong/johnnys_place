@@ -9,9 +9,10 @@
 
 .header {
     display: flex;
-    max-height: 10vh;
+    max-height: 12.5vh;
     font-size: 2.4em;
-    text-align: center;
+    background-color: black;
+    align-content: center;
 
     .logo{
         margin-left: auto;
@@ -21,6 +22,7 @@
     .span{
         font-size: 1.5em;
         color: rgb(18, 12, 107);
+        
     }
 }
 
