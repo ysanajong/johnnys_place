@@ -3,6 +3,7 @@
   padding: 2px;
   box-sizing: border-box;
   font-family: verdana;
+  color: beige;
 }
 
 .header {
@@ -17,6 +18,7 @@
 }
 .header .span {
   font-size: 1.5em;
+  color: rgb(18, 12, 107);
 }
 
 .content {
@@ -25,9 +27,12 @@
   grid-template-columns: 1fr 3fr 1fr;
   border: 2px solid blue;
   height: 80vh;
-  max-width: 100%;
-  background-color: pink;
-  background-image: url(https://d1ds1nqrpp2srf.cloudfront.net/photos/61102/image_original.jpg?1515697117);
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  width: 90vw;
+  background-color: rgb(90, 3, 18);
+  background-image: url(https://th.bing.com/th/id/R.27a9fd9241c8173280c6ed1385ae7692?rik=luhgdOSAXcLNJw&riu=http%3a%2f%2fwww.omsktour.ru%2fphotogallery%2fjohnny_place_turbaza%2fjonnysplace-view.jpg&ehk=aGk1tYviFL83EAeszLsO%2fcfo7v0XNGXJoMlB66eAZCU%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  align-items: center;
+  text-justify: center;
+  font-size: 15vh;
+  color: blueviolet;
 }/*# sourceMappingURL=style.css.map */
